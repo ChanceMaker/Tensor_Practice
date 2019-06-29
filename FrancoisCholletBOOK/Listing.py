@@ -50,9 +50,8 @@ model = models.load_model("model.h5")
 
 #print("Accuracy of model: {0}\nLoss of model: {1}".format(test_acc,test_loss))
 model.summary()
+
+#Listing 2.6
 digit = train_images[25]
 plt.imshow(digit,cmap=plt.cm.binary)
 plt.show()
-
-
-#Listing 2.6 
